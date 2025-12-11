@@ -1,9 +1,10 @@
 ---
+layout: default
 title: Mathematics
 ---
 
 # Mathematics
 
-- [Paper Title 1](pdfs/mathematics/paper1.pdf) (Brief description here)
-- [Paper Title 2](pdfs/mathematics/paper2.pdf) (Brief description here)
-- [Thesis Title](pdfs/mathematics/thesis.pdf) (My thesis on topology)
+A collection of my mathematical notes and papers.
+
+- [My Masters thesis (partially)](thesis_report_partial.pdf) *(A fragment of my MSc thesis on the Complexity of Lens spaces: the uplaoded version contains my ntoes on Differential Topology, Discrete Morse Theory, and 0-efficient triangulations )*
