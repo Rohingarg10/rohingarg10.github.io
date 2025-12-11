@@ -2,5 +2,5 @@
 
 - [Mathematics](/mathematics/)
 - [Writings](/writings/)
-- [Images](/AI generated images/)
+- [Images](/"AI generated images"/)
 
