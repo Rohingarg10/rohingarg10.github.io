@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohin Garg - Personal Website</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 2rem 0;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        nav {
+            background: white;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        nav ul li {
+            margin: 0;
+        }
+        
+        nav ul li a {
+            display: block;
+            padding: 1rem 1.5rem;
+            color: #333;
+            text-decoration: none;
+            transition: background 0.3s;
+        }
+        
+        nav ul li a:hover {
+            background: #667eea;
+            color: white;
+        }
+        
+        main {
+            padding: 3rem 0;
+        }
+        
+        .intro {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-bottom: 2rem;
+        }
+        
+        .sections {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        
+        .section-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .section-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+        }
+        
+        .section-card h2 {
+            color: #667eea;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+        
+        .section-card p {
+            margin-bottom: 1rem;
+            color: #666;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 0.75rem 1.5rem;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: transform 0.3s;
+        }
+        
+        .btn:hover {
+            transform: scale(1.05);
+        }
+        
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 3rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Rohin Garg</h1>
+            <p class="subtitle">Mathematics Graduate | IIT Delhi</p>
+        </div>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="research.html">Research Papers</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="coursework.html">Coursework</a></li>
+            <li><a href="publications.html">Publications</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <div class="container">
+            <div class="intro">
+                <h2>Welcome!</h2>
+                <p>I'm a recent M.S. Mathematics graduate from IIT Delhi with a focus on theoretical mathematics including differential topology, algebraic topology, and geometric analysis. This website contains my academic work, research papers, projects, and related documents.</p>
+            </div>
+            
+            <div class="sections">
+                <div class="section-card">
+                    <h2>Research Papers</h2>
+                    <p>Browse my research work in differential topology, algebraic topology, and related fields.</p>
+                    <a href="research.html" class="btn">View Research</a>
+                </div>
+                
+                <div class="section-card">
+                    <h2>Projects</h2>
+                    <p>Technical projects including optimization algorithms, machine learning implementations, and mathematical computations.</p>
+                    <a href="projects.html" class="btn">View Projects</a>
+                </div>
+                
+                <div class="section-card">
+                    <h2>Coursework</h2>
+                    <p>Course notes, assignments, and materials from my studies at IIT Delhi and Cornell University.</p>
+                    <a href="coursework.html" class="btn">View Coursework</a>
+                </div>
+                
+                <div class="section-card">
+                    <h2>Publications</h2>
+                    <p>Published papers, thesis work, and academic publications.</p>
+                    <a href="publications.html" class="btn">View Publications</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Rohin Garg. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
