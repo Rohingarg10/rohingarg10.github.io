@@ -2,4 +2,4 @@
 
 - [Mathematics](/mathematics/)
 - [Writings](/writings/)
-- [Images](/AI%20generated%20images/)
+- [AI Generated Images](/AI_images/)
