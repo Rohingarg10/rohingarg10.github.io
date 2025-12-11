@@ -1,3 +1,7 @@
 theme: jekyll-theme-minimal
 title: Rohin Garg
 description: Mathematics, political economy, and football!
+header_pages:
+  - mathematics.md
+  - writings.md
+  - images.md
