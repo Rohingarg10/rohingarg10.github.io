@@ -13,3 +13,4 @@ A collection of my mathematical notes and papers.
 - [Tetrads and Einstein Cartan Theory slides ](Tetrads.pdf):A Presentation (for PYL 742 at IITD) on the tetrad formulation of General Relativity and tetrads being a natural formulation on Einstein Cartan Theory.
 - [Model Theory Notes (partially)](model-theory-notes.pdf): My notes for MATH 6830 Model Theory at Cornell.
 - [An intro to the Mean Curvature Flow in R^2](MTL603_PDE_project.pdf): A short primer on the Mean Curvature Flow in R^2 (for MTL 603 at IITD).
+- [Investigations into the Max Cut and VRPTW problems](QUBO_VRPTW report.pdf): A short analysis of algorithms to be used for the Max Cut and VRPTW problems.
